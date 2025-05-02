@@ -1,8 +1,11 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+
 body {
     background-color: #f9f8f7; /* Updated background */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
-    font-size: 0.95rem;
+    font-size: 0.9rem; /* Reduced slightly for better mobile fit */
     color: #333333;
 }
 
@@ -20,14 +23,14 @@ body {
 
 .catchphrase {
     color: #000000; /* Changed to black */
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 700;
     line-height: 1.6;
 }
 
 .content-block {
-    font-size: 1.05rem;
-    line-height: 2;
+    font-size: 1rem; /* Slightly reduced */
+    line-height: 1.9;
     color: #2E2E2E;
     text-align: center;
     padding: 0 1rem;
@@ -36,8 +39,8 @@ body {
 }
 
 .content-block .intro-line {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1.2rem; /* Slightly reduced */
+    font-weight: 900; /* Made bolder */
     margin-bottom: 1.5rem;
     display: block;
 }
@@ -46,7 +49,7 @@ ul {
     list-style: disc inside;
     padding-left: 1rem;
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 500;
 }
 
@@ -57,7 +60,7 @@ ul {
     margin: 20px auto;
     width: 90%;
     font-weight: 600;
-    font-size: 1.05rem;
+    font-size: 1rem; /* Slightly reduced */
 }
 
 .social-icons {
@@ -102,7 +105,7 @@ ul {
 .btn-primary {
     background-color: #EAA9A4;
     border-color: #EAA9A4;
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 10px 30px;
     border-radius: 30px;
 }
