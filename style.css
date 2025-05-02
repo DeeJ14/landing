@@ -23,9 +23,10 @@ body {
 
 .catchphrase {
     color: #000000; /* Changed to black */
-    font-size: 1.7rem;
+    font-size: 1.6rem; /* Slightly reduced for wrapping */
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.4;
+    white-space: nowrap;
 }
 
 .content-block {
@@ -39,18 +40,20 @@ body {
 }
 
 .content-block .intro-line {
-    font-size: 1.2rem; /* Slightly reduced */
+    font-size: 1.15rem; /* Slightly reduced */
     font-weight: 900; /* Made bolder */
     margin-bottom: 1.5rem;
     display: block;
+    white-space: nowrap;
 }
 
 .lead {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: 700;
     line-height: 1.8;
     color: #2E2E2E;
     margin-bottom: 1rem;
+    white-space: nowrap;
 }
 
 ul {
