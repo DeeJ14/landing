@@ -1,12 +1,14 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #f9f8f7; /* Updated background */
     font-family: 'Arial', sans-serif;
     text-align: center;
+    font-size: 0.95rem;
+    color: #333333;
 }
 
 .hero {
-    background-color: #AFCEC2;
-    padding: 80px 20px;
+    background-color: #EAA9A4; /* Changed to match button color */
+    padding: 60px 20px;
     border-radius: 10px;
     margin: 20px auto;
 }
@@ -17,20 +19,45 @@ body {
 }
 
 .catchphrase {
-    color: #4B7960;
-    font-size: 2rem;
+    color: #000000; /* Changed to black */
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.6;
 }
 
+.content-block {
+    font-size: 1.05rem;
+    line-height: 2;
+    color: #2E2E2E;
+    text-align: center;
+    padding: 0 1rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.content-block .intro-line {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .message-box {
-    background-color: #EAF4EF;
+    background-color: #AFCEC2; /* Match hero section green */
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
-    width: 80%;
-    font-size: 1.2rem;
-    font-weight: bold;
+    width: 90%;
+    font-weight: 600;
+    font-size: 1.05rem;
 }
 
 .social-icons {
@@ -57,7 +84,7 @@ body {
 }
 
 .social-icons a:hover {
-    background-color: #f0f0f0;
+    background-color: #EFEFEF;
     color: #000;
 }
 
@@ -67,7 +94,7 @@ body {
 }
 
 .map-container iframe {
-    width: 80%;
+    width: 90%;
     height: 400px;
     border: 0;
 }
@@ -75,11 +102,22 @@ body {
 .btn-primary {
     background-color: #EAA9A4;
     border-color: #EAA9A4;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 30px;
 }
 
 .container-fixed {
     max-width: 900px;
     margin: auto;
     padding: 0 15px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .content-block {
+        text-align: center;
+        padding: 0 2rem;
+    }
 }
 
