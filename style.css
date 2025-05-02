@@ -45,6 +45,14 @@ body {
     display: block;
 }
 
+.lead {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.8;
+    color: #2E2E2E;
+    margin-bottom: 1rem;
+}
+
 ul {
     list-style: disc inside;
     padding-left: 1rem;
