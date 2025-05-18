@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
 
 body {
-/*    background-color: #f9f8f7;*/
     background-color: #F7F1E3;
     font-family: 'Noto Sans JP', sans-serif;
     text-align: center;
@@ -11,7 +10,6 @@ body {
 }
 
 .hero {
-/*    background-color: #EAA9A4;*/
     background-color: #F7F1E3;
     padding: 60px 20px;
     border-radius: 10px;
@@ -188,16 +186,38 @@ ul {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    margin: 30px auto 10px;
+    display: block;
 }
 
 @media (max-width: 767px) {
-    .two-column-section {
+    body {
+        font-size: 0.85rem;
+    }
+
+    .catchphrase {
+        font-size: 1.6rem;
+    }
+
+    .catchphrase2 {
+        font-size: 1.4rem;
+    }
+
+    .two-column-section,
+    .two-column-left-image {
         flex-direction: column;
         text-align: center;
     }
+
     .two-column-section .text,
-    .two-column-section .image {
+    .two-column-section .image,
+    .two-column-left-image .text,
+    .two-column-left-image .image {
         flex: 1 1 100%;
+    }
+
+    .price-image {
+        width: 90%;
     }
 }
 
