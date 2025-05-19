@@ -211,6 +211,24 @@ ul {
     margin: 0;
 }
 
+.btn-highlight {
+    background-color: #FFA500;
+    border: none;
+    font-size: 1.05rem;
+    padding: 14px 36px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: white;
+    margin: 30px auto 20px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn-highlight:hover {
+    background-color: #ff8800;
+}
+
 @media (max-width: 767px) {
     body {
         font-size: 0.85rem;
