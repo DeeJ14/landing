@@ -197,10 +197,18 @@ ul {
 
     .catchphrase {
         font-size: 1.6rem;
+        text-align: center;
     }
 
     .catchphrase2 {
         font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .hero img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .two-column-section,
@@ -218,6 +226,19 @@ ul {
 
     .price-image {
         width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-block {
+        text-align: left;
+    }
+
+    .social-icons,
+    .btn-primary,
+    .map-container {
+        text-align: center;
     }
 }
 
@@ -227,7 +248,3 @@ ul {
         padding: 0 2rem;
     }
 }
-
-
-
-
