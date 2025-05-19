@@ -198,9 +198,11 @@ ul {
 }
 
 .access-heading {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
+    text-decoration: underline;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .access-address {
