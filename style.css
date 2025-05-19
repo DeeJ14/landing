@@ -213,10 +213,20 @@ ul {
 
     .two-column-section,
     .two-column-left-image {
+        display: flex;
         flex-direction: column;
         text-align: left;
     }
 
+    .two-column-section .image,
+    .two-column-left-image .image {
+        order: 1;
+    }
+
+    .two-column-section .text,
+    .two-column-left-image .text {
+        order: 2;
+    }
     .two-column-section .text,
     .two-column-section .image,
     .two-column-left-image .text,
