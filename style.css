@@ -446,6 +446,24 @@ ul {
   .review-card {
     min-width: auto;
   }
+
+  /* イベントの月表示のスタイルをモバイル向けに調整 */
+  .event-month {
+      font-size: 1.5rem; /* スマートフォンでも読みやすいサイズに */
+      text-align: left;  /* 左揃えにする */
+      width: 100%;       /* 親要素の幅いっぱいに広げる */
+  }
+
+  /* ... 他の既存のスタイル ... */
+
+  .review-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .review-card {
+    min-width: auto;
+  }
 }
 
 @media (min-width: 768px) {
