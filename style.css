@@ -527,3 +527,21 @@ ul {
     margin-right: 12px; /* 文字との間隔 */
     filter: brightness(0) invert(1); /* アイコンを白色にするフィルタ */
 }
+
+/* --- フッターエリア --- */
+footer {
+    margin-top: 60px; /* 地図との間隔 */
+    padding: 30px 0;
+    border-top: 1px solid #dcd6c8; /* 薄いベージュの線 */
+    text-align: center;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+footer .footer-name {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    display: block; /* 改行させる */
+}
+
